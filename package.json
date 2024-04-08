@@ -1,0 +1,41 @@
+{
+  "name": "progi-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "test": "vitest",
+    "coverage": "vitest --coverage -u",
+    "coverage:update": "vitest --coverage -u",
+    "test-ui": "vitest --ui",
+    "test-ui:update": "vitest --ui -u",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.11",
+    "@quasar/quasar-app-extension-testing-unit-vitest": "^1.0.0",
+    "@vue/test-utils": "^2.4.5",
+    "axios": "^1.6.8",
+    "path": "^0.12.7",
+    "pinia": "^2.1.7",
+    "quasar": "^2.15.2",
+    "vitest": "^1.4.0",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@pinia/testing": "^0.1.3",
+    "@quasar/vite-plugin": "^1.6.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vitest/coverage-v8": "^1.4.0",
+    "@vitest/ui": "^1.4.0",
+    "jsdom": "^24.0.0",
+    "sass": "^1.33.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-tsconfig-paths": "^4.3.2",
+    "vue-tsc": "^2.0.6"
+  }
+}

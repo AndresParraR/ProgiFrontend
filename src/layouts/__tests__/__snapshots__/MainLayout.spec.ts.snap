@@ -1,0 +1,50 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MainLayout Component > Should render correctly 1`] = `
+<div
+  class="q-layout q-layout--standard"
+  style="min-height: 768px;"
+  tabindex="-1"
+>
+  <!---->
+  <object
+    aria-hidden="true"
+    class="q--avoid-card-border"
+    data="about:blank"
+    style="display: block; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; height: 100%; width: 100%; overflow: hidden; pointer-events: none; z-index: -1;"
+    tabindex="-1"
+    type="text/html"
+  />
+  <header
+    class="q-header q-layout__section--marginal fixed-top"
+  >
+    <div
+      class="q-toolbar row no-wrap items-center"
+      role="toolbar"
+    >
+      <div
+        class="q-toolbar__title ellipsis"
+      >
+         Progi App 
+      </div>
+    </div>
+    <div
+      class="q-layout__shadow absolute-full overflow-hidden no-pointer-events"
+    />
+    <object
+      aria-hidden="true"
+      class="q--avoid-card-border"
+      data="about:blank"
+      style="display: block; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; height: 100%; width: 100%; overflow: hidden; pointer-events: none; z-index: -1;"
+      tabindex="-1"
+      type="text/html"
+    />
+  </header>
+  <div
+    class="q-page-container"
+    style="padding-top: 50px;"
+  >
+    <router-view />
+  </div>
+</div>
+`;

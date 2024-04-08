@@ -1,0 +1,87 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`FilterVehicle Component > Should render correctly 1`] = `
+<div
+  class="q-card"
+>
+  <div
+    class="q-card__section q-card__section--vert"
+  >
+    <div
+      class="col-xs-12 row q-col-gutter-md"
+    >
+      <div
+        class="q-space"
+      />
+      <div
+        class="col-xs-12 col-sm-4 col-md-1"
+      >
+        <button
+          class="q-btn q-btn-item non-selectable no-outline q-btn--push q-btn--round bg-primary text-white q-btn--actionable q-focusable q-hoverable"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="q-focus-helper"
+          />
+          <span
+            class="q-btn__content text-center col items-center q-anchor--skip justify-center row"
+          >
+            <i
+              aria-hidden="true"
+              class="q-icon notranslate material-icons"
+              role="img"
+            >
+              add
+            </i>
+          </span>
+        </button>
+      </div>
+      <div
+        class="col-xs-12 col-sm-6 col-md-6"
+      >
+        <label
+          class="q-field row no-wrap items-start q-field--outlined q-input q-field--rounded filter-outlined"
+          for="f_f2b4c347-93cc-429d-8d02-2ef007218ad6"
+        >
+          <!---->
+          <div
+            class="q-field__inner relative-position col self-stretch"
+          >
+            <div
+              class="q-field__control relative-position row no-wrap"
+              tabindex="-1"
+            >
+              <div
+                class="q-field__control-container col relative-position row no-wrap q-anchor--skip"
+              >
+                <input
+                  class="q-field__native q-placeholder"
+                  id="f_f2b4c347-93cc-429d-8d02-2ef007218ad6"
+                  placeholder="Buscar"
+                  tabindex="0"
+                  type="text"
+                />
+                <!---->
+              </div>
+              <div
+                class="q-field__append q-field__marginal row no-wrap items-center"
+              >
+                <i
+                  aria-hidden="true"
+                  class="q-icon text-primary notranslate material-icons"
+                  role="presentation"
+                >
+                  search
+                </i>
+              </div>
+            </div>
+            <!---->
+          </div>
+          <!---->
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+`;

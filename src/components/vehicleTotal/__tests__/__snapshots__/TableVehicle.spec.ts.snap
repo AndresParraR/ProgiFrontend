@@ -1,0 +1,75 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TableVehicle Component > Should render correctly 1`] = `
+<div
+  class="q-card"
+>
+  <div
+    class="q-table__container q-table--cell-separator column no-wrap q-table__card q-table--no-wrap"
+  >
+    <!---->
+    <div
+      class="q-table__middle scroll"
+    >
+      <table
+        class="q-table"
+      >
+        <thead>
+          <tr
+            class="bg-primary text-white"
+          >
+            <th
+              class="text-left"
+            >
+              Vehicle Price ($)
+            </th>
+            <th
+              class="text-center"
+            >
+              Vehicle Type
+            </th>
+            <th
+              class="text-center"
+            >
+              Basic Fee ($)
+            </th>
+            <th
+              class="text-center"
+            >
+              Special Fee ($)
+            </th>
+            <th
+              class="text-center"
+            >
+              Storage Fee ($)
+            </th>
+            <th
+              class="text-center"
+            >
+              Total ($)
+            </th>
+            <th
+              class="text-center"
+            >
+              Actions
+            </th>
+          </tr>
+        </thead>
+        <tbody />
+      </table>
+    </div>
+    <div
+      class="q-table__bottom row items-center q-table__bottom--nodata"
+    >
+      <i
+        aria-hidden="true"
+        class="q-icon notranslate material-icons q-table__bottom-nodata-icon"
+        role="presentation"
+      >
+        warning
+      </i>
+      No data available
+    </div>
+  </div>
+</div>
+`;
